@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "trained_date": "2026-10-13 19:07:35",
+  "features": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "default_decision_threshold": 0.5,
+  "recommended_operational_threshold": 0.4,
+  "baseline_model": {
+    "name": "Logistic Regression (Balanced)",
+    "metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "pr_auc": 1.0,
+      "roc_auc": 1.0,
+      "true_positives": 10,
+      "false_positives": 0,
+      "true_negatives": 4990,
+      "false_negatives": 0,
+      "training_time_seconds": 0.09
+    },
+    "artifact": "baseline_logistic_regression.joblib"
+  },
+  "champion_model": {
+    "name": "Random Forest Classifier (Balanced)",
+    "metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "pr_auc": 0.9999999999999999,
+      "roc_auc": 1.0,
+      "true_positives": 10,
+      "false_positives": 0,
+      "true_negatives": 4990,
+      "false_negatives": 0,
+      "training_time_seconds": 0.56
+    },
+    "artifact": "champion_random_forest.joblib"
+  }
+}
